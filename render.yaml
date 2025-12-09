@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: waha
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: API_KEY
+        value: 123456
