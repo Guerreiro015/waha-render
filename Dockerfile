@@ -5,5 +5,4 @@ FROM devlikeapro/waha:latest
 ENV WAHA_PORT=${PORT}
 ENV LOG_LEVEL=info
 
-# Inicia o servidor WAHA
-CMD ["sh", "-c", "waha"]
+
